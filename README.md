@@ -20,4 +20,4 @@ This project is a basic web application for a Health Promotion Entity (EPS), dev
 ## Usage
 
 To run the application:
-Start the index.html file on a live server
+Start the Index.html file on a live server
