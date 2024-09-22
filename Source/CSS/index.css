@@ -1,0 +1,79 @@
+.conteiner{
+    display: flex;
+}
+
+.figura{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.btns{  
+    position: absolute;
+    top: 60%;
+    margin-left: 3%;
+}
+
+button{
+    
+    height: 50px;
+    width: 50px;
+    background: rgba(23, 22, 22, 0.299);
+    border: 0px;
+    font-size: x-large;
+    color: #bdd2ff;
+}
+
+button:hover{
+    background: #00A3E0;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#sig{
+    margin-left: 696px;
+}
+
+#cambiarImg{
+    width: 800px;
+    height: 509px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.Info{
+    width: 800px;
+    height: 509px;
+    margin-top: 5%;
+    margin-left: 50px;
+    margin-right: 3%;
+    text-align: justify;
+    border-radius: 20px;
+    color: #000000;
+    background: rgba(255, 254, 254, 0.35);
+    font-size: larger;
+    padding: 10px;
+}
+
+h1{
+    margin-top: 5%;
+    font-weight: bold;
+}
+
+.name{
+    margin-top: 5%;
+    font-size: xx-large;
+    height: 50px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #0033A0;
+}
+
+section{
+    border: solid 1px rgba(0, 0, 0, 0);
+}
+
+
+

@@ -1,0 +1,16 @@
+{
+  "name": "trabajo-por-capas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "inicio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}

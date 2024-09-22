@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.headers {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.985);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+  
+nav {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+  
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #0033A0;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background: #00A3E0;
+    color: #ffffff;
+}
+
+body{
+    background-image: url(/Source/Img/background.jpg);
+    background-size: cover;
+}
