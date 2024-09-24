@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Header.css">
+    <link rel="stylesheet" href="CSS/Form_Style.css">
+    <link rel="icon" href="Img/icono1.ico">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>ImaginaSalud EPS</title>
+</head>
+<body>
+    <header>
+        <section class="headers">
+              <nav>
+                  <ul>
+                    <li><a href="/" style="text-decoration:none">Inicio</a></li>
+                    <li><a href="/Usuarios" style="text-decoration:none">Usuarios</a></li>
+                    <li><a href="/Doctores" style="text-decoration:none">Doctores</a></li>
+                    <li><a href="/Citas" style="text-decoration:none">Citas</a></li>
+                  </ul>
+          </nav>
+        </section>
+    </header>
+    <main>
+        <section class="container">
+            <section class="Formulario">
+                <h1>Registro Doctores</h1>
+                <form action="">
+                    <section class="form1">
+                        <section class="labels">
+                            <label for="">idDoctor</label>
+                            <label for="">Apellido</label>
+                            <label for="">Nombre</label>
+                            <label for="">Correo</label>
+                            <label for="">Especialidad</label>
+                        </section>
+                        <section class="inputs">
+                            <input type="number"placeholder="Ingrese su ID">
+                            <input type="text" placeholder="Ingrese su Apellido">
+                            <input type="text" placeholder="Ingrese su Nombre">
+                            <input type="text" placeholder="Ingrese su Correo">
+                            <input type="text" placeholder="Ingrese su Especialidad">
+                        </section>
+                    </section>
+                </form>
+            </section>
+            <section class="Griv">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID Doctor</th>
+                            <th>Apellido</th>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Especialidad</th>
+                            <th>Opciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <% datos.forEach(function(resultado) { %>
+                            <tr>
+                                <td><%= resultado.IdDoctor %></td>
+                                <td><%= resultado.apellidoUs %></td>
+                                <td><%= resultado.nombreUs %></td>
+                                <td><%= resultado.CorreoUs %></td>
+                                <td><%= resultado.especialidad %></td>
+                                <td style="width: 180px;">
+                                    <a href="" class='botonInfo'>Editar <i class='bx bx-edit-alt'></i></a>
+                                    <a href="" class="botonDanger">Borrar <i class='bx bx-x-circle'></i></a>
+                                </td>
+                            </tr>
+                        <% }); %>
+                    </tbody>
+                </table>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
